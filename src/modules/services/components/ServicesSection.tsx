@@ -48,9 +48,14 @@ export const ServicesSection = () => {
                    <span className="text-logic-neon">✓</span>
                 </div>
              </div>
-             <button className="w-full py-5 rounded-[24px] border border-white/10 hover:bg-logic-neon hover:border-logic-neon hover:text-white transition-all text-xs font-black italic uppercase tracking-widest text-meta-steel">
+             <a 
+               href="https://wa.me/22656829548?text=Bonjour%20Carlos%2C%20j%27aimerais%20qu%27on%20discute%20d%27un%20Audit%20Architectural%20pour%20mon%20application..." 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               className="flex items-center justify-center w-full py-5 rounded-[24px] border border-white/10 hover:bg-logic-neon hover:border-logic-neon hover:text-white transition-all text-xs font-black italic uppercase tracking-widest text-meta-steel"
+             >
                {t("tier1_btn")}
-             </button>
+             </a>
           </div>
 
           {/* Tier 2: Implementation (Primary) */}
@@ -75,9 +80,14 @@ export const ServicesSection = () => {
                    <p className="text-base md:text-lg text-logic-neon font-black italic uppercase">{t("tier2_feature2_value")}</p>
                 </div>
              </div>
-             <button className="w-full py-5 md:py-6 bg-logic-neon rounded-[32px] text-white text-sm font-black italic uppercase tracking-[0.1em] hover:bg-logic-neon-hover shadow-2xl shadow-logic-neon/30 transition-colors">
+             <a 
+               href="https://wa.me/22656829548?text=Bonjour%20Carlos%2C%20j%27ai%20besoin%20de%20construire%20une%20application%20performante.%20Pouvons-nous%20parler%20de%20mon%20projet%20%3F" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               className="flex items-center justify-center w-full py-5 md:py-6 bg-logic-neon rounded-[32px] text-white text-sm font-black italic uppercase tracking-[0.1em] hover:bg-logic-neon-hover shadow-2xl shadow-logic-neon/30 transition-colors"
+             >
                {t("tier2_btn")}
-             </button>
+             </a>
           </div>
 
           {/* Tier 3: Partnership */}
@@ -99,9 +109,14 @@ export const ServicesSection = () => {
                    <span className="text-success-emerald">✓</span>
                 </div>
              </div>
-             <button className="w-full py-5 rounded-[24px] border border-white/10 hover:bg-success-emerald hover:border-success-emerald hover:text-obsidian transition-all text-xs font-black italic uppercase tracking-widest text-meta-steel">
+             <a 
+               href="https://wa.me/22656829548?text=Bonjour%20Carlos%2C%20je%20cherche%20un%20profil%20Tech%20Lead%20%2F%20Partenariat%20sur%20le%20long%20terme.%20Quand%20pouvons-nous%20%C3%A9changer%20%3F" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               className="flex items-center justify-center w-full py-5 rounded-[24px] border border-white/10 hover:bg-success-emerald hover:border-success-emerald hover:text-obsidian transition-all text-xs font-black italic uppercase tracking-widest text-meta-steel"
+             >
                {t("tier3_btn")}
-             </button>
+             </a>
           </div>
 
         </div>
