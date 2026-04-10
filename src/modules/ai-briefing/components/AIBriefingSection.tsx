@@ -15,7 +15,7 @@ export const AIBriefingSection = () => {
   };
 
   return (
-    <section id="ai-briefing-architect" className="bg-obsidian text-white py-32 px-6 md:px-12 relative overflow-hidden font-sans border-t justify-center items-center flex flex-col border-white/5 relative z-10 w-full">
+    <section id="ai-briefing-architect" className="bg-obsidian text-white py-16 md:py-24 lg:py-32 px-6 md:px-12 relative overflow-hidden font-sans border-t justify-center items-center flex flex-col border-white/5 relative z-10 w-full">
       
       {/* 1. BACKDROP: Tactical Logic Interface */}
       <div className="absolute inset-0 opacity-10 pointer-events-none select-none">

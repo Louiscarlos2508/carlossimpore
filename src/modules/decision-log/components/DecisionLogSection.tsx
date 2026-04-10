@@ -8,7 +8,7 @@ export const DecisionLogSection = () => {
   const t = useTranslations("Log");
 
   return (
-    <section id="decision-log" className="bg-obsidian text-white min-h-screen py-32 px-6 md:px-12 relative overflow-hidden font-mono border-t border-white/5">
+    <section id="decision-log" className="bg-obsidian text-white min-h-screen py-16 md:py-24 lg:py-32 px-6 md:px-12 relative overflow-hidden font-mono border-t border-white/5">
       
       {/* 1. BACKDROP: Matrix Logic Grid */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none">
