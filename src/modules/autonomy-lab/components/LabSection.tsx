@@ -109,13 +109,22 @@ const LabGrid = () => {
                   <p className="text-[8px] text-success-emerald/70 font-mono italic uppercase font-black tracking-tighter">{t("engine_1_desc")}</p>
                </div>
             </div>
-            <div className="flex items-center space-x-4 opacity-70">
+            <div className="flex items-center space-x-4 opacity-80">
                <div className="w-10 h-10 rounded-xl bg-success-emerald/10 border border-success-emerald/30 flex items-center justify-center">
                  <Database className="w-5 h-5 text-success-emerald" />
                </div>
                <div>
                   <p className="text-xs font-black italic tracking-tight uppercase">{t("engine_2_name")}</p>
                   <p className="text-[8px] text-meta-ghost font-mono italic uppercase font-black tracking-tighter">{t("engine_2_desc")}</p>
+               </div>
+            </div>
+            <div className="flex items-center space-x-4 opacity-60">
+               <div className="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center">
+                 <ShieldCheck className="w-5 h-5 text-purple-500" />
+               </div>
+               <div>
+                  <p className="text-xs font-black italic tracking-tight uppercase">{t("engine_3_name")}</p>
+                  <p className="text-[8px] text-meta-ghost font-mono italic uppercase font-black tracking-tighter">{t("engine_3_desc")}</p>
                </div>
             </div>
          </div>
