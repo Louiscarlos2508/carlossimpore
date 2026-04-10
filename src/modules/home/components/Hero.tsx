@@ -126,9 +126,9 @@ const Hero = () => {
             </button>
 
             {/* Secondary CTA */}
-            <button className="px-8 py-4 lg:px-10 lg:py-5 bg-transparent border border-white/10 hover:border-white/30 hover:bg-white/5 text-white/70 rounded-titan font-bold text-sm lg:text-base transition-all tracking-tighter italic uppercase w-full sm:w-auto text-center">
+            <a href="https://github.com/Louiscarlos2508" target="_blank" rel="noopener noreferrer" className="block px-8 py-4 lg:px-10 lg:py-5 bg-transparent border border-white/10 hover:border-white/30 hover:bg-white/5 text-white/70 rounded-titan font-bold text-sm lg:text-base transition-all tracking-tighter italic uppercase w-full sm:w-auto text-center">
               {t("cta_secondary")}
-            </button>
+            </a>
           </motion.div>
         </div>
 

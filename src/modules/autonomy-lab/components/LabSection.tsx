@@ -128,9 +128,9 @@ const LabGrid = () => {
                </div>
             </div>
          </div>
-         <button className="w-full py-3 rounded-full border border-white/5 text-[10px] font-black italic uppercase tracking-widest hover:bg-white/5 transition-all">
+         <a href="https://github.com/Louiscarlos2508" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full py-3 rounded-full border border-white/5 text-[10px] font-black italic uppercase tracking-widest hover:bg-white/5 hover:border-white/20 hover:text-white transition-all text-meta-steel">
            {t("node_button")}
-         </button>
+         </a>
       </div>
 
       {/* Card C: Resilience Matrix */}
