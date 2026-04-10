@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #0A0A0B;
+    --foreground: #F9FAFB;
+  }
+
+  body {
+    @apply bg-obsidian text-meta-steel font-sans selection:bg-logic-neon selection:text-white;
+    background-color: var(--background);
+    color: var(--foreground);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  /* Titan Grid Background Pattern */
+  .bg-titan-grid {
+    background-image: linear-gradient(to right, rgba(59, 130, 246, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(59, 130, 246, 0.05) 1px, transparent 1px);
+    background-size: 80px 80px;
+  }
+
+  /* Logic Dots Background Pattern */
+  .bg-logic-dots {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.05) 0.5px, transparent 0.5px);
+    background-size: 20px 20px;
+  }
+
+  /* Cyber Glow Pulse */
+  .glow-pulse {
+    @apply animate-pulse;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
+  }
+
+  /* Glass Surface */
+  .glass-surface {
+    @apply bg-coal/80 backdrop-blur-xl border border-white/5 shadow-2xl;
+  }
+}
+
+/* Custom Scrollbar for Titan-grade UI */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-obsidian;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-full hover:bg-logic-neon/50 transition-colors;
+}

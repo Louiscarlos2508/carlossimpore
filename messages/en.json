@@ -1,0 +1,151 @@
+{
+  "Index": {
+    "title": "Carlos Simpore | Software Engineer",
+    "meta_description": "Architecting robust Web and Mobile applications for modern businesses."
+  },
+  "Hero": {
+    "badge": "Scalable Software Architecture",
+    "role": "Full-Stack Software Engineer",
+    "title_part1": "CARLOS",
+    "title_part2": "SIMPORE",
+    "sub_headline": "Stop battling technical debt and fragile codebases. I engineer high-performance Web and Mobile applications that turn <tasks>complex problems</tasks> into <flows>reliable software</flows>.",
+    "cta_primary": "Explore My Projects",
+    "cta_secondary": "View My Code",
+    "scroll_hint": "Tech Stack Below"
+  },
+  "Lab": {
+    "node_label": "Development Environment",
+    "uptime": "Performance: Optimized",
+    "title_part1": "MY TECH",
+    "title_part2": "STACK",
+    "subtitle": "The modern technologies and tools I use to build robust, scalable applications.",
+    "tasks_processed": "Projects Shipped",
+    "heartbeat_title": "Code Quality",
+    "sync_active": "Automated Testing",
+    "latency": "Web Response: < 100ms",
+    "core_version": "Next.js & Flutter",
+    "engines_title": "Core Expertise",
+    "engine_1_name": "FRONTEND",
+    "engine_1_desc": "React / Next.js / Tailwind",
+    "engine_2_name": "BACKEND",
+    "engine_2_desc": "Node / Postgres / Drizzle",
+    "node_button": "View My GitHub",
+    "success_rate_label": "Client Satisfaction Rate"
+  },
+  "Log": {
+    "mode": "Transparency & Quality",
+    "stream": "Working Methodology",
+    "title_part1": "MY",
+    "title_part2": "APPROACH",
+    "active_threads": "Mastered Technologies",
+    "broker_version": "Clean Architecture",
+    "connected_status": "PRODUCTION READY",
+    "log_1_event": "ANALYSIS & ARCHITECTURE",
+    "log_1_desc": "Before writing a single line of code, I ensure the architecture <b>perfectly aligns</b> with your business needs and can scale over time.",
+    "log_2_event": "ROBUST DEVELOPMENT",
+    "log_2_outcome": "Outcome: Clean, strictly-typed, and fully tested code.",
+    "log_3_event": "DEPLOYMENT & MONITORING",
+    "log_3_desc": "Secure deployment to production with <b>automated CI/CD pipelines</b> to guarantee zero downtime.",
+    "footer_nodes": "Commits",
+    "footer_accuracy": "Reliability",
+    "button_download": "Download Resume"
+  },
+  "Architecture": {
+    "badge_1": "Methodology",
+    "badge_2": "Robust Software",
+    "title_part1": "BUILT TO",
+    "title_part2": "SCALE",
+    "subtitle": "Stop building fragile apps. I design and implement robust architectures that scale natively and survive the real world.",
+    "node_1_badge": "FRONTEND",
+    "node_1_tech": "Next.js / Flutter",
+    "stream_label": "REST / GraphQL",
+    "node_2_badge": "BACKEND",
+    "node_2_title": "CLOUD CORE",
+    "node_2_tech": "Node.js / PostgreSQL",
+    "protocol_1_title": "Clean Architecture",
+    "protocol_1_desc": "Every layer is decoupled. Business logic is isolated from UI and Database, ensuring long-term maintainability and easy testing.",
+    "protocol_2_title": "Performance First",
+    "protocol_2_desc": "Optimized database queries, smart caching, and horizontal scalability so your application remains lightning fast even under heavy load."
+  },
+  "Services": {
+    "badge": "Collaboration Models",
+    "title_part1": "HOW WE CAN",
+    "title_part2": "WORK TOGETHER",
+    "subtitle": "From technical audits to full-scale web and mobile development. Let's build something robust.",
+    
+    "tier1_badge": "01 // CONSULTING",
+    "tier1_title": "TECHNICAL AUDIT",
+    "tier1_desc": "A deep-dive analysis of your current codebase or architecture to identify bottlenecks, security flaws, and performance issues.",
+    "tier1_feature1": "Codebase Review",
+    "tier1_feature2": "Architecture Roadmap",
+    "tier1_btn": "Book an Audit",
+    
+    "tier2_popular": "MOST POPULAR",
+    "tier2_badge": "02 // IMPLEMENTATION",
+    "tier2_title": "FULL-STACK BUILD",
+    "tier2_desc": "End-to-end development of your Web or Mobile application using Next.js, Flutter, and scalable backends.",
+    "tier2_feature1_label": "Code Quality",
+    "tier2_feature1_value": "Premium",
+    "tier2_feature2_label": "Delivery",
+    "tier2_feature2_value": "On Time",
+    "tier2_btn": "Start a Project",
+
+    "tier3_badge": "03 // PARTNERSHIP",
+    "tier3_title": "CTO AS A SERVICE",
+    "tier3_desc": "Long-term technical leadership for your startup. I manage your tech stack, architecture, and developer teams so you can focus on business.",
+    "tier3_feature1": "Fractional CTO",
+    "tier3_feature2": "Tech Strategy",
+    "tier3_btn": "Discuss Partnership"
+  },
+  "CaseStudy": {
+    "badge": "Case Study: Optimization",
+    "title_part1": "CASE STUDY:",
+    "title_part2": "TREASURY APP",
+    "subtitle": "Transforming a legacy dashboard into a highly optimized, offline-first application for financial management.",
+    
+    "before_title": "Before Optimization",
+    "before_time": "12.4s",
+    "before_status": "Status: Synchronous queries blocking UI...",
+    "before_desc_title": "Identified Bottlenecks",
+    "before_desc": "Heavy synchronous operations, excessive data fetching without caching, and coupled logic resulting in poor UX.",
+
+    "after_title": "After Refactoring",
+    "after_time": "< 0.2s",
+    "after_status": "Status: Offline-First Cache Active",
+    "after_desc_title": "Outcome: Lightning Fast",
+    "after_desc": "Implemented a robust offline-first architecture using local databases and background sync, improving speed drastically.",
+    "roi_label": "Speed Boost",
+    "roi_value": "98%"
+  },
+  "DNA": {
+    "badge": "DNA Sequence: Philosophy",
+    "title_part1": "INNOVATION IS",
+    "title_part2": "MY DRIVER",
+    "subtitle": "\"Code is just the means. Architectural intelligence is the goal. I don't just build apps; I architect Resilient Engines that scale.\"",
+    
+    "pillar1_title": "TITAN RESILIENCE",
+    "pillar1_desc": "My standard for mission-critical systems. Local-first by default. Resilient by design. Synchronized by intelligence.",
+    
+    "pillar2_title": "MULTI-DOMAIN",
+    "pillar2_desc": "From Logistics to Financial Ledgers. I navigate complex domains with a First-Principles lens, extracting value others miss.",
+    
+    "pillar3_title": "AI ACCELERATOR",
+    "pillar3_desc": "AI used as a multiplier, not a gimmick. Orchestrating autonomous agents that build business value while you sleep."
+  },
+  "Briefing": {
+    "status": "Status: Briefing Engine Ready",
+    "progress": "Blueprint Progress",
+    "title_part1": "LET'S ARCHITECT",
+    "title_part2": "YOUR ENGINE",
+    "subtitle_part1": "I've analyzed the current scaling paradigms for your domain. To build your",
+    "subtitle_highlight": "Hybrid-Engine",
+    "subtitle_part2": "I need one tactical insight:",
+    "question": "What manual process is currently bottlenecking your focus?",
+    "input_placeholder": "Type your core bottleneck here...",
+    "ai_status_label": "Strategy AI:",
+    "ai_status_value": "WAITING FOR INPUT...",
+    "command_hint": "Press ENTER to commit",
+    "submit_btn": "ARCHITECT MY BLUEPRINT",
+    "disclaimer": "By completing this brief, you receive a high-level Architecture Draft and a tactical ROI projection for your business."
+  }
+}

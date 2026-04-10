@@ -1,0 +1,151 @@
+{
+  "Index": {
+    "title": "Carlos Simpore | Ingénieur Logiciel",
+    "meta_description": "Développement d'applications Web et Mobiles robustes et performantes."
+  },
+  "Hero": {
+    "badge": "Architecture Logicielle Scalable",
+    "role": "Ingénieur Logiciel Full-Stack",
+    "title_part1": "CARLOS",
+    "title_part2": "SIMPORE",
+    "sub_headline": "Fini la dette technique et le code fragile. Je conçois des applications Web et Mobiles ultra-performantes qui transforment vos <tasks>problèmes complexes</tasks> en <flows>logiciels fiables</flows>.",
+    "cta_primary": "Découvrir mes projets",
+    "cta_secondary": "Voir mon code",
+    "scroll_hint": "Accéder à la stack technique"
+  },
+  "Lab": {
+    "node_label": "Environnement de Développement",
+    "uptime": "Performance: Optimisée",
+    "title_part1": "MA STACK",
+    "title_part2": "TECHNIQUE",
+    "subtitle": "Les technologies et outils modernes que j'utilise pour garantir la fiabilité de vos projets.",
+    "tasks_processed": "Projets Livrés",
+    "heartbeat_title": "Qualité de Code",
+    "sync_active": "Tests Automatisés",
+    "latency": "Temps de réponse web : < 100ms",
+    "core_version": "Next.js & Flutter",
+    "engines_title": "Spécialités Techniques",
+    "engine_1_name": "FRONT-END",
+    "engine_1_desc": "React / Next.js / Tailwind",
+    "engine_2_name": "BACK-END",
+    "engine_2_desc": "Node / Postgres / Drizzle",
+    "node_button": "Voir mon GitHub",
+    "success_rate_label": "Taux de Satisfaction Client"
+  },
+  "Log": {
+    "mode": "Transparence & Qualité",
+    "stream": "Méthodologie de travail",
+    "title_part1": "MON",
+    "title_part2": "APPROCHE",
+    "active_threads": "Technologies Maîtrisées",
+    "broker_version": "Clean Architecture",
+    "connected_status": "PRÊT POUR LA PRODUCTION",
+    "log_1_event": "ANALYSE & ARCHITECTURE",
+    "log_1_desc": "Avant d'écrire une seule ligne de code, je m'assure que l'architecture <b>répond exactement</b> à vos besoins métiers et peut évoluer dans le temps.",
+    "log_2_event": "DÉVELOPPEMENT ROBUSTE",
+    "log_2_outcome": "Résultat : Un code propre, typé et testé.",
+    "log_3_event": "DÉPLOIEMENT & SUIVI",
+    "log_3_desc": "Mise en production sécurisée avec des processus <b>CI/CD automatisés</b> pour garantir zéro interruption de service.",
+    "footer_nodes": "Commits",
+    "footer_accuracy": "Fiabilité",
+    "button_download": "Télécharger mon CV"
+  },
+  "Architecture": {
+    "badge_1": "Méthodologie",
+    "badge_2": "Logiciel Robuste",
+    "title_part1": "CONÇU POUR",
+    "title_part2": "L'ÉCHELLE",
+    "subtitle": "Fini les applications fragiles. Je conçois et implémente des architectures robustes qui évoluent avec votre entreprise et tiennent la charge en production.",
+    "node_1_badge": "FRONT-END",
+    "node_1_tech": "Next.js / Flutter",
+    "stream_label": "REST / GraphQL",
+    "node_2_badge": "BACK-END",
+    "node_2_title": "CLOUD CORE",
+    "node_2_tech": "Node.js / PostgreSQL",
+    "protocol_1_title": "Clean Architecture",
+    "protocol_1_desc": "Chaque couche est indépendante. La logique métier est isolée, garantissant un code facilement maintenable, testable et pérenne.",
+    "protocol_2_title": "Performance d'abord",
+    "protocol_2_desc": "Requêtes BD optimisées, mise en cache intelligente et scalabilité horizontale pour que votre application reste ultra-rapide sous forte charge."
+  },
+  "Services": {
+    "badge": "Modèles de Collaboration",
+    "title_part1": "MES",
+    "title_part2": "SERVICES",
+    "subtitle": "De l'audit technique au développement web et mobile complet. Construisons quelque chose de robuste.",
+    
+    "tier1_badge": "01 // CONSEIL",
+    "tier1_title": "AUDIT TECHNIQUE",
+    "tier1_desc": "Une analyse approfondie de votre code ou de votre architecture actuelle pour identifier les goulots d'étranglement, les failles et suggérer des pistes d'optimisation.",
+    "tier1_feature1": "Revue de Code",
+    "tier1_feature2": "Roadmap d'Architecture",
+    "tier1_btn": "Réserver un Audit",
+    
+    "tier2_popular": "LE PLUS DEMANDÉ",
+    "tier2_badge": "02 // DÉVELOPPEMENT",
+    "tier2_title": "DÉVELOPPEMENT FULL-STACK",
+    "tier2_desc": "Création de A à Z de votre application Web ou Mobile en utilisant Next.js, Flutter, ou un Back-End sur mesure et scalable.",
+    "tier2_feature1_label": "Qualité du Code",
+    "tier2_feature1_value": "Premium",
+    "tier2_feature2_label": "Livraison",
+    "tier2_feature2_value": "Dans les Délais",
+    "tier2_btn": "Démarrer un Projet",
+
+    "tier3_badge": "03 // PARTENARIAT",
+    "tier3_title": "CTO AS A SERVICE",
+    "tier3_desc": "Un leadership technique sur le long terme pour votre startup. Je gère les aspects techniques pour que vous puissiez vous concentrer sur le business.",
+    "tier3_feature1": "CTO Part-Time",
+    "tier3_feature2": "Stratégie Tech",
+    "tier3_btn": "Discuter d'un Partenariat"
+  },
+  "CaseStudy": {
+    "badge": "Cas Client : Optimisation",
+    "title_part1": "ÉTUDE DE CAS :",
+    "title_part2": "APPLI DE TRÉSORERIE",
+    "subtitle": "Refonte d'un tableau de bord de gestion financière lent en une application ultra-rapide et utilisable hors ligne.",
+    
+    "before_title": "Avant l'Optimisation",
+    "before_time": "12.4s",
+    "before_status": "Statut: Base de données bloquant l'UI...",
+    "before_desc_title": "Problèmes Identifiés",
+    "before_desc": "Architecture défaillante avec de lourdes requêtes synchrones et une absence de mise en cache provoquant de gros ralentissements.",
+
+    "after_title": "Après Refactoring",
+    "after_time": "< 0.2s",
+    "after_status": "Statut: Cache Offline Actif",
+    "after_desc_title": "Résultat : Ultra-Rapide",
+    "after_desc": "Implémentation d'une solide architecture 'offline-first' avec synchronisation en arrière-plan, divisant le temps de chargement par 60.",
+    "roi_label": "Gain de Performance",
+    "roi_value": "98%"
+  },
+  "DNA": {
+    "badge": "Mon ADN : Philosophie",
+    "title_part1": "L'INNOVATION EST",
+    "title_part2": "MON MOTEUR",
+    "subtitle": "\"Le code n'est qu'un moyen. L'architecture est le but. Je ne crée pas de simples apps ; je conçois des Systèmes Résilients conçus pour passer à l'échelle.\"",
+    
+    "pillar1_title": "TITAN RÉSILIENCE",
+    "pillar1_desc": "Mon standard pour les systèmes critiques. Local-first par défaut. Conçu pour résister aux réseaux instables. Synchronisé avec précision.",
+    
+    "pillar2_title": "AGILITÉ MULTI-DOMAINES",
+    "pillar2_desc": "Logistique, Finance ou ERP. J'aborde chaque domaine complexe avec une approche scientifique pour en extraire la meilleure valeur.",
+    
+    "pillar3_title": "ACCÉLÉRATEUR IA",
+    "pillar3_desc": "L'IA comme multiplicateur de force, pas comme un simple gadget. J'intègre des agents qui génèrent de la valeur métier pendant que vous dormez."
+  },
+  "Briefing": {
+    "status": "Statut: Moteur de Briefing Prêt",
+    "progress": "Progression du Blueprint",
+    "title_part1": "ARCHITECTURONS",
+    "title_part2": "VOTRE SYSTÈME",
+    "subtitle_part1": "Pour concevoir un",
+    "subtitle_highlight": "Moteur Hybride",
+    "subtitle_part2": "parfaitement adapté à votre entreprise, j'ai besoin d'une information clé :",
+    "question": "Quel processus manuel freine actuellement votre croissance ?",
+    "input_placeholder": "Tapez votre goulot d'étranglement ici...",
+    "ai_status_label": "IA Stratégique :",
+    "ai_status_value": "EN ATTENTE DE SAISIE...",
+    "command_hint": "Appuyez sur ENTRÉE pour valider",
+    "submit_btn": "CRÉER MON BLUEPRINT",
+    "disclaimer": "En complétant ce brief, nous pourrons échanger sur une ébauche d'Architecture et sur le ROI potentiel pour votre entreprise."
+  }
+}
