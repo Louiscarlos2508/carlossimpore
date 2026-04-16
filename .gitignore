@@ -45,3 +45,6 @@ next-env.d.ts
 /.github/
 /_bmad/
 /_bmad-output/
+/_wds-learn/
+/design-process/_progress/agent-experiences/
+*.agent
