@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       colors: {
         obsidian: "#0A0A0B",
-        coal: "#0D0D0E",
-        surface: "#121214",
+        coal: "#111112",
+        surface: "#161618",
         logic: {
           neon: "#3B82F6",
           "neon-hover": "#2563EB",

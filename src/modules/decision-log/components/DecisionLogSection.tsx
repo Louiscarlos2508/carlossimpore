@@ -8,9 +8,9 @@ export const DecisionLogSection = () => {
   const t = useTranslations("Log");
 
   return (
-    <section id="decision-log" className="bg-obsidian text-white min-h-screen py-16 md:py-24 lg:py-32 px-6 md:px-12 relative overflow-hidden font-mono border-t border-white/5">
+    <section id="approach" className="bg-obsidian text-white min-h-screen py-16 md:py-24 lg:py-32 px-6 md:px-12 relative overflow-hidden font-mono border-t border-white/5">
       
-      {/* 1. BACKDROP: Matrix Logic Grid */}
+      {/* 1. BACKDROP: Matrix Logic Grid & Glows */}
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none">
          <svg width="100%" height="100%">
             <pattern id="dotGrid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -19,6 +19,8 @@ export const DecisionLogSection = () => {
             <rect width="100%" height="100%" fill="url(#dotGrid)" />
          </svg>
       </div>
+      <div className="absolute -bottom-1/4 -right-1/4 w-[800px] h-[800px] bg-glow-emerald opacity-40 pointer-events-none"></div>
+
 
       <div className="max-w-6xl mx-auto space-y-12 relative z-10">
         
@@ -46,24 +48,27 @@ export const DecisionLogSection = () => {
         </div>
 
         {/* The Logic Console */}
-        <div className="bg-coal border border-white/5 rounded-titan-large overflow-hidden shadow-2xl shadow-logic-neon/5 group hover:border-logic-neon/20 transition-all">
+        <div className="bg-coal border border-white/10 rounded-titan-large overflow-hidden shadow-[0_0_100px_rgba(59,130,246,0.05)] group hover:border-logic-neon/40 transition-all relative">
+          <div className="absolute inset-0 bg-scanline opacity-[0.02] pointer-events-none"></div>
+
           
           {/* Top Bar: Logic Status */}
-          <div className="px-10 py-6 bg-surface border-b border-white/5 flex items-center justify-between">
-            <div className="flex items-center space-x-6">
-               <div className="flex space-x-1.5 align-center">
-                  <div className="w-3 h-3 rounded-full bg-red-500/30"></div>
-                  <div className="w-3 h-3 rounded-full bg-yellow-500/30"></div>
-                  <div className="w-3 h-3 rounded-full bg-success-emerald shadow-[0_0_8px_#10B981]"></div>
-               </div>
-               <span className="text-[10px] text-meta-ghost font-bold uppercase tracking-widest italic font-black">
-                 {t("broker_version")}
-               </span>
-            </div>
-            <div className="text-[10px] text-logic-neon font-black animate-pulse uppercase tracking-[0.2em] italic">
-              {t("connected_status")}
-            </div>
+          <div className="px-10 py-6 bg-surface/50 backdrop-blur-md border-b border-white/10 flex items-center justify-between relative z-10">
+             <div className="flex items-center space-x-6">
+                <div className="flex space-x-1.5 align-center">
+                   <div className="w-3 h-3 rounded-full bg-red-500/30"></div>
+                   <div className="w-3 h-3 rounded-full bg-yellow-500/30"></div>
+                   <div className="w-3 h-3 rounded-full bg-success-emerald shadow-[0_0_12px_#10B981]"></div>
+                </div>
+                <span className="text-[10px] text-meta-steel/70 font-bold uppercase tracking-widest italic font-black">
+                  {t("broker_version")}
+                </span>
+             </div>
+             <div className="text-[10px] text-logic-neon font-black animate-pulse uppercase tracking-[0.2em] italic">
+               {t("connected_status")}
+             </div>
           </div>
+
 
           {/* Logic Stream Content */}
           <div className="p-6 md:p-12 space-y-10 max-h-[600px] overflow-y-auto scrollbar-hide">
@@ -137,9 +142,14 @@ export const DecisionLogSection = () => {
                    <p className="text-xl font-black italic text-success-emerald">100.0%</p>
                 </div>
              </div>
-             <button className="px-8 py-4 bg-transparent border border-white/10 text-xs font-black italic uppercase tracking-widest hover:border-white/30 hover:bg-white/5 transition-all rounded-titan">
+             <a 
+               href="/resume.pdf" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               className="px-8 py-4 bg-transparent border border-white/10 text-xs font-black italic uppercase tracking-widest hover:border-white/30 hover:bg-white/5 transition-all rounded-titan flex items-center justify-center"
+             >
                 {t("button_download")}
-             </button>
+             </a>
           </div>
 
         </div>

@@ -38,7 +38,7 @@ const Hero = () => {
 
   return (
     <section 
-      id="hero-entry" 
+      id="home" 
       className="relative min-h-[100dvh] flex flex-col justify-center items-center px-6 md:px-12 overflow-hidden bg-obsidian isolate"
     >
       {/* 1. Backdrop: The Cyber-Blueprint Grid Overlay is handled globally in layout.tsx */}
@@ -117,13 +117,17 @@ const Hero = () => {
             className="flex flex-col sm:flex-row items-center space-y-6 sm:space-y-0 sm:space-x-8 pt-6"
           >
             {/* Primary CTA */}
-            <button className="group relative px-8 py-4 lg:px-10 lg:py-5 bg-logic-neon hover:bg-logic-neon-hover text-white rounded-titan font-black text-base lg:text-lg transition-all transform hover:scale-105 shadow-[0_0_40px_rgba(59,130,246,0.2)] tracking-tighter italic uppercase overflow-hidden w-full sm:w-auto">
+            <a 
+              href="#projects" 
+              className="group relative px-8 py-4 lg:px-10 lg:py-5 bg-logic-neon hover:bg-logic-neon-hover text-white rounded-titan font-black text-base lg:text-lg transition-all transform hover:scale-105 shadow-[0_0_40px_rgba(59,130,246,0.2)] tracking-tighter italic uppercase overflow-hidden w-full sm:w-auto flex items-center justify-center"
+            >
               <span className="relative z-10 flex items-center justify-center">
                 {t("cta_primary")}
                 <ChevronRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
               <div className="absolute inset-x-4 -bottom-1 h-3 bg-blue-400 blur-xl opacity-0 group-hover:opacity-60 transition-opacity" />
-            </button>
+            </a>
+
 
             {/* Secondary CTA */}
             <a href="https://github.com/Louiscarlos2508" target="_blank" rel="noopener noreferrer" className="block px-8 py-4 lg:px-10 lg:py-5 bg-transparent border border-white/10 hover:border-white/30 hover:bg-white/5 text-white/70 rounded-titan font-bold text-sm lg:text-base transition-all tracking-tighter italic uppercase w-full sm:w-auto text-center">
@@ -161,7 +165,8 @@ const Hero = () => {
       </div>
 
       {/* 5. Footer: Navigation Anchor */}
-      <motion.div 
+      <motion.a 
+        href="#lab"
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.4 }}
         whileHover={{ opacity: 1 }}
@@ -172,7 +177,7 @@ const Hero = () => {
            {t("scroll_hint")}
          </p>
          <div className="w-px h-16 bg-gradient-to-b from-logic-neon to-transparent" />
-      </motion.div>
+      </motion.a>
     </section>
   );
 };

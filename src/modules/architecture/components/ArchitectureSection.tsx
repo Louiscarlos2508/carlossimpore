@@ -8,7 +8,7 @@ export const ArchitectureSection = () => {
   const t = useTranslations("Architecture");
 
   return (
-    <section id="architecture-story" className="bg-obsidian text-white py-16 md:py-24 lg:py-40 px-6 md:px-12 relative overflow-hidden font-sans border-t border-white/5">
+    <section id="architecture" className="bg-obsidian text-white py-16 md:py-24 lg:py-40 px-6 md:px-12 relative overflow-hidden font-sans border-t border-white/5">
       
       <div className="max-w-4xl mx-auto space-y-24 relative z-10">
         

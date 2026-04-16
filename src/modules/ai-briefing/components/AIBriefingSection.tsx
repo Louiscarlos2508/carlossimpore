@@ -15,17 +15,19 @@ export const AIBriefingSection = () => {
   };
 
   return (
-    <section id="ai-briefing-architect" className="bg-obsidian text-white py-16 md:py-24 lg:py-32 px-6 md:px-12 relative overflow-hidden font-sans border-t justify-center items-center flex flex-col border-white/5 relative z-10 w-full">
+    <section id="briefing" className="bg-obsidian text-white py-16 md:py-24 lg:py-32 px-6 md:px-12 relative overflow-hidden font-sans border-t justify-center items-center flex flex-col border-white/5 relative z-10 w-full">
       
       {/* 1. BACKDROP: Tactical Logic Interface */}
-      <div className="absolute inset-0 opacity-10 pointer-events-none select-none">
-         <div className="absolute inset-0 bg-blue-500/5 blur-[150px]"></div>
+      <div className="absolute inset-0 opacity-20 pointer-events-none select-none">
+         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[1000px] bg-glow-blue opacity-60"></div>
+         <div className="absolute inset-0 bg-titan-grid opacity-10"></div>
       </div>
+
 
       <div className="max-w-4xl w-full space-y-12 md:space-y-16 relative z-10">
         
         {/* Header: Conversion Status */}
-        <div className="flex flex-col md:flex-row md:items-center justify-between px-6 py-4 bg-coal border border-white/5 md:rounded-full rounded-2xl shadow-xl shadow-logic-neon/5 space-y-4 md:space-y-0">
+        <div className="flex flex-col md:flex-row md:items-center justify-between px-6 py-4 bg-coal/80 backdrop-blur-md border border-white/10 md:rounded-full rounded-2xl shadow-xl shadow-logic-neon/10 space-y-4 md:space-y-0">
           <div className="flex items-center space-x-3">
              <div className="w-1.5 h-1.5 rounded-full bg-logic-neon animate-ping"></div>
              <span className="text-[10px] font-mono font-bold text-logic-neon uppercase tracking-widest italic">{t("status")}</span>
@@ -39,7 +41,7 @@ export const AIBriefingSection = () => {
         </div>
 
         {/* AI Interaction Hub */}
-        <div className="bg-coal border border-white/5 rounded-[40px] md:rounded-[56px] p-8 md:p-16 relative overflow-hidden group shadow-2xl hover:border-logic-neon/30 transition-all">
+        <div className="bg-coal border border-white/10 rounded-[40px] md:rounded-[56px] p-8 md:p-16 relative overflow-hidden group shadow-2xl hover:border-logic-neon/50 transition-all">
           
           {/* Content: The Strategic Ask */}
           <div className="space-y-8 md:space-y-10">
@@ -54,8 +56,9 @@ export const AIBriefingSection = () => {
 
           {/* Input: Command Line Interface */}
           <div className="mt-12 md:mt-16 group/input relative">
-            <form onSubmit={handleSubmit} className="flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-4 border-b-2 border-white/10 group-focus-within/input:border-logic-neon transition-all pb-4 md:pb-8">
+            <form onSubmit={handleSubmit} className="flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-4 border-b-2 border-white/20 group-focus-within/input:border-logic-neon transition-all pb-4 md:pb-8">
                <span className="hidden md:block text-logic-neon font-mono text-3xl animate-pulse font-black italic">_</span>
+
                <input 
                  type="text" 
                  value={inputValue}

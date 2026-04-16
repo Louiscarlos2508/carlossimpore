@@ -41,6 +41,27 @@
   .glass-surface {
     @apply bg-coal/80 backdrop-blur-xl border border-white/5 shadow-2xl;
   }
+
+  /* Atmospheric Glows */
+  .bg-glow-blue {
+    background: radial-gradient(circle at center, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+  }
+
+  .bg-glow-emerald {
+    background: radial-gradient(circle at center, rgba(16, 185, 129, 0.15) 0%, transparent 70%);
+  }
+
+  .bg-scanline {
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      transparent 50%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5)
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+  }
 }
 
 /* Custom Scrollbar for Titan-grade UI */

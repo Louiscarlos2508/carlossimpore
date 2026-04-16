@@ -163,7 +163,7 @@ const LabGrid = () => {
 
 export const LabSection = () => {
   return (
-    <section id="autonomy-lab" className="relative min-h-[100dvh] py-16 md:py-24 lg:py-32 px-6 md:px-12 overflow-hidden bg-obsidian">
+    <section id="lab" className="relative min-h-[100dvh] py-16 md:py-24 lg:py-32 px-6 md:px-12 overflow-hidden bg-obsidian">
       {/* Lab Specific Background */}
       <div className="absolute inset-0 pointer-events-none opacity-20 z-0 scale-110">
         <img src="/images/lab_waves.png" alt="Lab Wave Telemetry" className="w-full h-full object-cover" />

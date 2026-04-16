@@ -149,5 +149,25 @@
     "command_hint": "Press ENTER to commit",
     "submit_btn": "ARCHITECT MY BLUEPRINT",
     "disclaimer": "By completing this brief, you receive a high-level Architecture Draft and a tactical ROI projection for your business."
+  },
+  "Projects": {
+    "badge": "Portfolio: Operations",
+    "title_part1": "SELECTED",
+    "title_part2": "OPERATIONS",
+    "subtitle": "Designing and deploying mission-critical systems. Focused on resilience, performance, and autonomy.",
+    "view_case_study": "View Case Study",
+    "view_live": "View Live Site",
+    
+    "project1_title": "WILDERNESS LEDGER",
+    "project1_desc": "Offline-first treasury application. Ultra-fast synchronization and automated reconciliation of bank flows.",
+    "project1_tech": "Flutter / NestJS / Postgres",
+    
+    "project2_title": "DYNAMIC ERP BUILDER",
+    "project2_desc": "Architectural engine allowing tailored ERP modules generation without architectural friction.",
+    "project2_tech": "Next.js / TypeScript / Tailwind",
+    
+    "project3_title": "AUTONOMOUS CRM",
+    "project3_desc": "AI agents integration for automatic lead qualification and strategic briefing assistance.",
+    "project3_tech": "Next.js / Gemini API / Node.js"
   }
 }

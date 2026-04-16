@@ -8,7 +8,7 @@ export const HyperLearnerSection = () => {
   const t = useTranslations("DNA");
 
   return (
-    <section id="philosophy-dna" className="bg-obsidian text-white py-16 md:py-24 lg:py-32 px-6 md:px-12 relative overflow-hidden font-sans border-t border-white/5">
+    <section id="dna" className="bg-obsidian text-white py-16 md:py-24 lg:py-32 px-6 md:px-12 relative overflow-hidden font-sans border-t border-white/5">
       
       <div className="max-w-7xl mx-auto space-y-24 md:space-y-32 relative z-10">
         

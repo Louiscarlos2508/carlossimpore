@@ -7,7 +7,7 @@ export const CaseStudySection = () => {
   const t = useTranslations("CaseStudy");
 
   return (
-    <section id="treasurer-case-study" className="bg-obsidian text-white py-16 md:py-24 lg:py-40 px-6 md:px-12 relative overflow-hidden font-sans border-t border-white/5">
+    <section id="studies" className="bg-obsidian text-white py-16 md:py-24 lg:py-40 px-6 md:px-12 relative overflow-hidden font-sans border-t border-white/5">
       
       <div className="max-w-7xl mx-auto space-y-20 relative z-10">
         

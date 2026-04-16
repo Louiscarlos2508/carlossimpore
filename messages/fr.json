@@ -149,5 +149,25 @@
     "command_hint": "Appuyez sur ENTRÉE pour valider",
     "submit_btn": "CRÉER MON BLUEPRINT",
     "disclaimer": "En complétant ce brief, nous pourrons échanger sur une ébauche d'Architecture et sur le ROI potentiel pour votre entreprise."
+  },
+  "Projects": {
+    "badge": "Portfolio : Opérations",
+    "title_part1": "OPÉRATIONS",
+    "title_part2": "SÉLECTIONNÉES",
+    "subtitle": "Conception et déploiement de systèmes critiques. Focus sur la résilience, la performance et l'autonomie.",
+    "view_case_study": "Voir l'étude de cas",
+    "view_live": "Voir en direct",
+    
+    "project1_title": "WILDERNESS LEDGER",
+    "project1_desc": "Application de trésorerie offline-first. Synchronisation ultra-rapide et réconciliation automatisée des flux bancaires.",
+    "project1_tech": "Flutter / NestJS / Postgres",
+    
+    "project2_title": "DYNAMIC ERP BUILDER",
+    "project2_desc": "Moteur architectural permettant de générer des modules ERP sur mesure sans refactorisation lourde.",
+    "project2_tech": "Next.js / TypeScript / Tailwind",
+    
+    "project3_title": "CRM AUTONOME",
+    "project3_desc": "Intégration d'agents IA pour la qualification automatique de leads et le briefing stratégique assisté.",
+    "project3_tech": "Next.js / Gemini API / Node.js"
   }
 }
